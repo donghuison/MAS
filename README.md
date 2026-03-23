@@ -28,10 +28,10 @@ MAS is a complex code with many years of development and contains numerous input
 MAS has been tested to work with the following compilers:  
   
  - GCC's `gfortran` v14.2.0  
- - NVIDIA's `nvfortran` v25.7 (both CPU and GPU)  
- - INTEL's `ifx` v2025.1.0  
+ - NVIDIA's `nvfortran` v26.1 (both CPU and GPU)  
+ - INTEL's `ifx` v2024  
   
-NOTE: Currently, MAS does not work on NVIDIA GPUs with nvfortran 25.9, please use 25.5 or 25.7 for now.  
+NOTE: MAS does not work on NVIDIA GPUs with nvfortran 25.5 or 25.9, please use 25.7 or >=26.1.  
   
 ### Dependencies ###
 MAS requires the [HDF5](https://www.hdfgroup.org/solutions/hdf5) library and an MPI library (e.g. [OpenMPI](https://www.open-mpi.org), [MPICH](https://www.mpich.org), etc.).
